@@ -1,0 +1,12 @@
+JAVA BankAccount GC
+C BankAccount
+S Account 
+I MoneyThingy,AnotherThingy
+CV str name GS
+CV int total G
+CT int ID 30
+CR str:name,int:initialValue
+M PUB void depositMoney int:money
+M PUB int withdrawMoney
+M PRI bool anotherMethod double:value,int:anotherValue
+E
